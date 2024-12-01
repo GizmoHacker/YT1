@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: radial-gradient(circle, #1a1a1d, #0c0c0d);
+    color: white;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('https://source.unsplash.com/1920x1080/?space,galaxy') no-repeat center center/cover;
+    text-align: center;
+    color: #ff4444;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    text-shadow: 0 0 15px #ff4444, 0 0 30px #ff0000;
+}
+
+.content {
+    padding: 2rem;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: auto;
+}
+
+.content p {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.youtube-link {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 0.8rem 1.5rem;
+    background-color: #ff4444;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(255, 68, 68, 0.5);
+    transition: background 0.3s;
+}
+
+.youtube-link:hover {
+    background-color: #d12e2e;
+}
